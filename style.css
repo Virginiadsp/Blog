@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./IMG/back.jpg);
+}
+
+.section{
+    text-align: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 600px 300px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.div1{
+    background-color: chartreuse;
+}
+
+#img-div-topo{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.div1 p, h3{
+    margin: 0 auto;
+    width: 175px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(139, 8, 139);
+    background-color: rgb(232, 193, 193);
+    padding: 10px;
+    border-radius: 5px;
+}  
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#container-principal, #container-direita, #container-esquerda{
+    border: 1px solid rebeccapurple;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.div2{
+    background-color: rgb(53, 185, 221);
+}
+
+.img-div2{
+    width: 450px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.div2 h2, p {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.div3{
+    background-color: rgb(201, 135, 179);
+}
+
+.img-div3{
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
